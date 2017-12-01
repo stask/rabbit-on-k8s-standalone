@@ -2,9 +2,9 @@ apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   name: rabbitmq-deployment
-  namespace: demo
+  namespace: plumbus
 spec:
-  replicas: 3
+  replicas: 2
   template:
     metadata:
       labels:
